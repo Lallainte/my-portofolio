@@ -1,7 +1,7 @@
 
 <?php 
 require 'functions.php';
-// session_start();
+session_start();
 
 // ada cookie engga?
 if(isset($_COOKIE['dewi']) && isset($_COOKIE['marsita']) ) {
